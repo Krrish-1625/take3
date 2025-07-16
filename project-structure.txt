@@ -1,0 +1,30 @@
+azure-sql-app/
+├── pom.xml                                    # Maven configuration
+├── README.md                                  # Project documentation
+├── .gitignore                                 # Git ignore rules
+├── project-structure.txt                      # This file
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── example/
+    │   │           └── azuresqlapp/
+    │   │               ├── AzureSqlAppApplication.java      # Main application
+    │   │               ├── controller/
+    │   │               │   └── ProductController.java       # Web controller
+    │   │               ├── entity/
+    │   │               │   └── Product.java                # JPA entity
+    │   │               ├── repository/
+    │   │               │   └── ProductRepository.java      # Data repository
+    │   │               └── service/
+    │   │                   └── ProductService.java         # Business logic
+    │   └── resources/
+    │       ├── application.properties          # Configuration
+    │       └── templates/
+    │           ├── index.html                 # Main page template
+    │           └── edit.html                  # Edit page template
+    └── test/
+        └── java/
+            └── com/
+                └── example/
+                    └── azuresqlapp/           # Test directory (empty)
